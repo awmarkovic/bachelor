@@ -1,0 +1,11 @@
+.dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dialog {
+  background: transparent;
+  border: none;
+  padding: 16px;
+  outline: none;
+  max-width: 750px;
+}
