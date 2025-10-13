@@ -10,13 +10,19 @@ export function About() {
     {
       id: "sebastian",
       name: "Sebastian Thangen-Eriksen",
-      img: `${import.meta.env.BASE_URL}Animal2.png`,
+      img: `${import.meta.env.BASE_URL}sebastian.jpeg`,
       text: "BLA BLA BLA",
     },
     {
       id: "nelly",
       name: "Nelly Skokowska-Rakoczy",
       img: `${import.meta.env.BASE_URL}Animal3.png`,
+      text: "Nelly trives godt med webteknologier og hun liker å jobbe med mennesker. Dette er grunnen til at hun valgte å jobbe som studentassistent i faget Webutvikling. Denne stillingen går ut på å gi veiledning innen HTML, CSS og JavaScript med bruk av moderne rammeverk og biblioteker. Rollen har gitt henne god erfaring innen disse teknologiene som hun tror vil være relevant for prosjektet. ",
+    },
+    {
+      id: "anneli",
+      name: "Anneli Lirhus Evertsen",
+      img: `${import.meta.env.BASE_URL}Animal4.png`,
       text: "BLA BLA BLA",
     },
     {
@@ -24,12 +30,6 @@ export function About() {
       name: "Amanda Woldseth Markovic",
       img: `${import.meta.env.BASE_URL}amanda.jpeg`,
       text: "Amanda har særlig interesse for webutvikling og liker spesielt å utvikle nettsider med React og TypeScript. Med tiden har hun også blitt mer nysgjerrig på apputvikling og syns det er spennende å utforske hvordan løsninger kan bygges - både med Swift og Kotlin. Amanda har på fritiden utviklet en egen hjemmeside med Github Pages, hvor hun per idag har en digital CV. Planen er å på sikt utvide hjemmesiden med mer nyttig info. Høsten 2025 deltar hun på Bouvet’s mentorprogram “BouMentor” hvor hun får god veiledning fra en mentor. ",
-    },
-    {
-      id: "anneli",
-      name: "Anneli Lirhus Evertsen",
-      img: `${import.meta.env.BASE_URL}Animal4.png`,
-      text: "BLA BLA BLA",
     },
   ];
 

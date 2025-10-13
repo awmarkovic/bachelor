@@ -7,12 +7,6 @@ interface Props {
   children: ReactNode;
 }
 
-/**
- * In react, components are written as functions
- * they take exactly one parameter, typically called
- * "props", short for "properties". It is an object,
- * which you can think of as similiar to an html element's attributes
- */
 export function Modal(props: Props) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const clickBoundary = useRef<HTMLDivElement>(null);
@@ -36,7 +30,6 @@ export function Modal(props: Props) {
         if (!clickBoundary.current) return;
         if (!(event.target instanceof HTMLElement)) return;
 
-        // Close only if the click is outside the modal content
         if (!clickBoundary.current.contains(event.target)) {
           dialogRef.current?.close();
         }

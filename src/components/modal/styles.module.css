@@ -9,3 +9,41 @@
   outline: none;
   max-width: 750px;
 }
+
+/* Changing the layout for smaller screens. Image and h1 side by side and text under.  */
+@media (max-width: 500px) {
+  .dialog > div > div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 12px;
+    align-items: center;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 18px;
+  }
+
+  .dialog > div > div > img {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .dialog > div > div > h1 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    text-align: left;
+    font-size: 24px;
+  }
+
+  .dialog > div > div > p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-top: 6px;
+    overflow: visible;
+  }
+}
