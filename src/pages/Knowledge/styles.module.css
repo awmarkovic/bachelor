@@ -60,7 +60,7 @@
   text-align: center;
 }
 
-.linksAmanda {
+.title {
   font-weight: bold;
   font-size: 24px;
   font-family: var(--font-complimentary);
@@ -80,6 +80,11 @@
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.linkList strong {
+  font-weight: 700;
+  font-family: var(--font-complimentary);
 }
 
 .linkList li {

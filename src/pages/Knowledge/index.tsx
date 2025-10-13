@@ -67,7 +67,7 @@ export function Knowledge() {
       </section>
 
       <section className={styles.linksSection}>
-        <h2 className={styles.linksAmanda}>Sjekk gjerne ut våre Git-repoer</h2>
+        <h2 className={styles.title}>Sjekk gjerne ut våre Git-repoer</h2>
         <ul className={styles.linkList}>
           <li>
             <strong>Sebastian</strong> <br />
@@ -82,7 +82,9 @@ export function Knowledge() {
             </a>
           </li>
         </ul>
-        <h2 className={styles.linksAmanda}>Du finner oss også på LinkedIn</h2>
+        <br />
+        <br />
+        <h2 className={styles.title}>Du finner oss også på LinkedIn</h2>
         <ul className={styles.linkList}>
           <li>
             <strong>Anneli</strong> <br />
