@@ -48,8 +48,8 @@ export function About() {
             som studerer Informasjonsteknologi – frontend og mobilutvikling. Som
             gruppe jobber vi godt sammen og har høye ambisjoner om å få til en
             gjennomført løsning som både er funksjonell og estetisk fin. Vi
-            leter nå etter en bedrift å jobbe sammens med, og vi håper at det
-            kan være dere!
+            leter nå etter en bedrift å jobbe sammen med, og vi håper at det kan
+            være <strong>dere!</strong>
           </p>
         </div>
       </section>

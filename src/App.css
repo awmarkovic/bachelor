@@ -23,7 +23,6 @@ body {
 }
 
 .page-wrapper {
-  /* border: 2px solid blue; */
   width: 100%;
   min-height: 100%;
   height: fit-content;
@@ -38,6 +37,7 @@ body {
 .header {
   padding-bottom: 16px;
   border-bottom: 1px solid black;
+  margin-bottom: 16px;
 }
 
 .nav {
