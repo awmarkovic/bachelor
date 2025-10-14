@@ -18,7 +18,7 @@ export function BusinessCard(props: Props) {
     >
       <img src={props.img} alt={props.name} />
       <h1>{props.name}</h1>
-      <p>{props.text}</p>
+      <p className={styles.body}>{props.text}</p>
       {props.teaser ? <div className={styles.textFade} /> : null}
     </div>
   );

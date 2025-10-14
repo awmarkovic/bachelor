@@ -76,6 +76,18 @@ export function Knowledge() {
             </a>
           </li>
           <li>
+            <strong>Nelly</strong> <br />
+            <a className={styles.link} href="https://github.com/Nelly1611">
+              https://github.com/Nelly1611
+            </a>
+          </li>
+          <li>
+            <strong>Anneli</strong> <br />
+            <a className={styles.link} href="https://github.com/Cuupcaake93">
+              https://github.com/Cuupcaake93
+            </a>
+          </li>
+          <li>
             <strong>Amanda</strong> <br />
             <a className={styles.link} href="https://github.com/awmarkovic">
               https://github.com/awmarkovic

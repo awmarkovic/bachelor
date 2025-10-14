@@ -9,27 +9,27 @@ export function About() {
   const members = [
     {
       id: "sebastian",
-      name: "Sebastian Thangen-Eriksen",
+      name: "Sebastian Thangen-Eriksen(22)",
       img: `${import.meta.env.BASE_URL}sebastian.jpeg`,
-      text: "BLA BLA BLA",
+      text: "Sebastian har en sterk interesse for webutvikling og liker spesielt å jobbe med moderne teknologier som React, TypeScript og Swift. Han trives med å utforske hvordan ulike rammeverk og språk kan kombineres for å skape funksjonelle og visuelt gjennomførte løsninger. \n\nSebastian er nysgjerrig og lærevillig, og motiveres av å tilegne seg ny kunnskap og utvikle seg faglig. Han setter pris på å arbeide i miljøer hvor han får mulighet til å lære av andre, samtidig som han selv bidrar med engasjement og initiativ.",
     },
     {
       id: "nelly",
-      name: "Nelly Skokowska-Rakoczy",
-      img: `${import.meta.env.BASE_URL}Animal3.png`,
+      name: "Nelly Skokowska(21)",
+      img: `${import.meta.env.BASE_URL}nelly.jpg`,
       text: "Nelly trives godt med webteknologier og hun liker å jobbe med mennesker. Dette er grunnen til at hun valgte å jobbe som studentassistent i faget Webutvikling. Denne stillingen går ut på å gi veiledning innen HTML, CSS og JavaScript med bruk av moderne rammeverk og biblioteker. Rollen har gitt henne god erfaring innen disse teknologiene som hun tror vil være relevant for prosjektet. ",
     },
     {
       id: "anneli",
-      name: "Anneli Lirhus Evertsen",
-      img: `${import.meta.env.BASE_URL}Animal4.png`,
-      text: "BLA BLA BLA",
+      name: "Anneli Lirhus Evertsen(32)",
+      img: `${import.meta.env.BASE_URL}anneli.jpeg`,
+      text: "Anneli er tannlege i bunn, men har bestemt seg for å ta en ny retning i livet innenfor informasjonsteknologi. Anneli har alltid hatt en interesse for data, og trives for tiden best med app-utvikling i Kotlin og Swift, men synes også det er gøy å lage nettsider med React og Typescript.",
     },
     {
       id: "amanda",
-      name: "Amanda Woldseth Markovic",
+      name: "Amanda Woldseth Markovic(28)",
       img: `${import.meta.env.BASE_URL}amanda.jpeg`,
-      text: "Amanda har særlig interesse for webutvikling og liker spesielt å utvikle nettsider med React og TypeScript. Med tiden har hun også blitt mer nysgjerrig på apputvikling og syns det er spennende å utforske hvordan løsninger kan bygges - både med Swift og Kotlin. Amanda har på fritiden utviklet en egen hjemmeside med Github Pages, hvor hun per idag har en digital CV. Planen er å på sikt utvide hjemmesiden med mer nyttig info. Høsten 2025 deltar hun på Bouvet’s mentorprogram “BouMentor” hvor hun får god veiledning fra en mentor. ",
+      text: "Amanda har særlig interesse for webutvikling og liker spesielt å utvikle nettsider med React og TypeScript. Med tiden har hun også blitt mer nysgjerrig på apputvikling og syns det er spennende å utforske hvordan løsninger kan bygges - både med Swift og Kotlin. \n\nAmanda har på fritiden utviklet en egen hjemmeside med Github Pages, hvor hun per idag har en digital CV. Planen er å på sikt utvide hjemmesiden med mer nyttig info. Høsten 2025 deltar hun på Bouvet’s mentorprogram “BouMentor” hvor hun får god veiledning fra en mentor. ",
     },
   ];
 
@@ -37,7 +37,7 @@ export function About() {
     <>
       <section className="hero-section">
         <div className="hero-image">
-          <img src={`${import.meta.env.BASE_URL}hero-image.png`} />
+          <img src={`${import.meta.env.BASE_URL}hero-image.jpeg`} />
         </div>
 
         <div className="hero-text">
