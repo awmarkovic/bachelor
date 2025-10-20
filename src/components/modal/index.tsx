@@ -54,7 +54,9 @@ export function Modal(props: Props) {
           props.onClose();
         }}
       >
-        <div ref={clickBoundary}>{props.children}</div>
+        <div className={styles.box} ref={clickBoundary}>
+          {props.children}
+        </div>
       </dialog>
     </>
   );

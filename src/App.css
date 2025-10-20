@@ -5,6 +5,8 @@
 :root {
   --font-main: "Verdana";
   --font-complimentary: "Courier New";
+
+  --breakpoint-large: 600px;
 }
 
 html,
@@ -27,7 +29,6 @@ body {
   min-height: 100%;
   height: fit-content;
   max-width: 960px;
-  padding: 16px;
   padding-bottom: 48px;
   display: flex;
   flex: 1;
@@ -35,7 +36,12 @@ body {
 }
 
 .header {
+  background: white;
+  position: sticky;
+  z-index: 10;
+  top: 0;
   padding-bottom: 16px;
+  padding-top: 16px;
   border-bottom: 1px solid black;
   margin-bottom: 16px;
 }

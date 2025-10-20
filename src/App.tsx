@@ -18,7 +18,7 @@ const router = createBrowserRouter(
           element: <About />,
         },
         {
-          path: "/Knowledge",
+          path: "/knowledge",
           element: <Knowledge />,
         },
       ],
@@ -28,6 +28,8 @@ const router = createBrowserRouter(
     basename: "/bachelor/",
   }
 );
+
+// Legge til en not found side?
 
 function Layout() {
   return (
@@ -51,11 +53,7 @@ function Layout() {
 }
 
 function App() {
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

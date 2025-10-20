@@ -1,0 +1,50 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: auto 1fr;
+
+  overflow: hidden;
+  gap: 12px;
+  height: 100%;
+
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+  background: white;
+}
+
+.image {
+  grid-column: 1 / span 1;
+  grid-row: 1 / -1;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.name {
+  font-size: 24px;
+  font-family: var(--font-complimentary);
+  grid-column: 2 / -1;
+  overflow: hidden;
+}
+
+.description {
+  overflow: hidden;
+  position: relative;
+  grid-column: 2 / -1;
+}
+
+.description::after {
+  content: "";
+  position: absolute;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.5) 40%,
+    white 100%
+  );
+}
