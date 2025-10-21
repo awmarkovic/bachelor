@@ -4,6 +4,7 @@ interface Props {
   name: string;
   age: number;
   description: string;
+  github?: string;
   image: string;
 }
 
@@ -19,6 +20,16 @@ export function DetailedMemberLayout(props: Props) {
         {props.name}({props.age})
       </h2>
       <p className={styles.description}>{props.description}</p>
+      {props.github && (
+        <a
+          className={styles.github}
+          href={props.github}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {props.github}
+        </a>
+      )}{" "}
     </div>
   );
 }

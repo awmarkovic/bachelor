@@ -70,10 +70,13 @@
 
 .link {
   text-decoration: underline;
+  transition: transform 0.2s ease, font-weight 0.2s ease;
+  display: inline-block;
 }
 
 .link:hover {
-  font-weight: bold;
+  transform: scale(1.08);
+  cursor: pointer;
 }
 
 .linkList {
