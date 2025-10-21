@@ -27,7 +27,7 @@ export function DetailedMemberLayout(props: Props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {props.github}
+          {props.github.replace(/^https?:\/\//, "")}
         </a>
       )}{" "}
     </div>

@@ -57,12 +57,13 @@ export function About() {
           <h1>Bachelor 2026</h1>
           <h2>Vi vil jobbe med deg!</h2>
           <p>
-            Vi er en gruppe på fire bachelorstudenter ved Høyskolen Kristiania
-            som studerer Informasjonsteknologi – frontend og mobilutvikling. Som
-            gruppe jobber vi godt sammen og har høye ambisjoner om å få til en
-            gjennomført løsning som både er funksjonell og estetisk fin. Vi
-            leter nå etter en bedrift å jobbe sammen med, og vi håper at det kan
-            være <strong>dere!</strong>
+            Vi er fire bachelorstudenter ved Høyskolen Kristiania som studerer
+            Informasjonsteknologi - Frontend- og mobilutvikling. Vi trives med å
+            jobbe sammen og deler et felles ønske om å utvikle løsninger som
+            kombinerer funksjonalitet, design og brukervennlighet. Vi leter nå
+            etter en bedrift å jobbe sammen med til vårt bachelor-prosjekt, og
+            vi håper at det kan være
+            <strong> dere!</strong>
           </p>
         </div>
       </section>
